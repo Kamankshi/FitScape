@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Fitness Group</title>
+  <link rel="stylesheet" href="creation.css">
+</head>
+<body>
+  <button id="createGroupButton" class="createGroupButtons">Create Fitness Group</button>
+  <button id="ViewGroupButton" class="createGroupButtons" >View Fitness Group</button>
+
+  <!-- Popup for group creation -->
+  <div id="groupPopup" class="popup">
+    <h2>Create New Group</h2>
+    <input type="text" id="groupName" placeholder="Group Name" class="box" required>
+    <input type="text" id="eventName" placeholder="Event Name" class="box" required>
+    <input type="date" id="date" placeholder="11-09-2024" class="box" required>
+    <input type="text" id="timings" placeholder="Timings" class="box" required>
+    <input type="text" id="location" placeholder="Location" class="box" required>
+    <input type="text" id="charges" placeholder="Charges (or Free)" required>
+    <input type="text" id="ageGroup" placeholder="Age Group" class="box" required>
+    <textarea id="description" placeholder="Description" class="box" required></textarea>
+
+    <!-- Popup action buttons -->
+    <button id="createGroupSubmit">Create Group</button>
+    <button id="cancelPopup">Cancel</button>
+  </div>
+
+  <!-- Success message -->
+  <div id="successMessage">Group created successfully!</div>
+
+  <script type="module" src="\FitScape-home\chat-portal\creation.js"></script>
+</body>
+</html>

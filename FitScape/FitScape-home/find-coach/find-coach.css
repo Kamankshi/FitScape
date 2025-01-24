@@ -1,0 +1,459 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+    width: 100%;
+    background-color: black;
+}
+
+.header {
+    position: fixed;
+    z-index: 1;
+}
+
+.topnav a:hover {
+    border-bottom: 3px solid red;
+}
+
+.our-proj-offer {
+    text-align: center;
+    padding-top: 71px;
+    padding-bottom: 77px;
+}
+
+.types-of-trainers img {
+    width: 100%;
+    border: 10px;
+    border-color: white;
+}
+
+.text-trainer-offer {
+    text-align: center;
+    padding-left: 12px;
+    color: white;
+}
+
+.text-trainer-offer button {
+    width: 44%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 6px;
+    background-color: white;
+    border-color: #e27888;
+    color: #e27888;
+    margin-bottom: 3rem;
+}
+
+.text-trainer-offer button:hover {
+    background-color: #e27888;
+    border-color: #e27888;
+    color: white;
+}
+
+.button1 {
+    width: 44%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 6px;
+    border-color: #e27888;
+    background-color: white;
+    color: #e27888;
+}
+
+.button1:hover {
+    background-color: #e27888;
+    border-color: #e27888;
+    color: white;
+}
+
+.our-proj-offer h2 {
+    margin-top: 4rem;
+    color: white;
+}
+
+.our-proj-offer img {
+    padding-bottom: 2.5rem;
+    padding-top: 0.5rem;
+}
+
+.about-our-page h2 {
+    margin-bottom: 0;
+    color: white;
+}
+
+.about-our-page img {
+    padding-bottom: 29px;
+}
+
+.trainer-distribution img {
+    width: 70%;
+    padding-left: 14rem;
+}
+
+.trainer-distribution-whiteimg {
+    border: 1px solid;
+    width: 33%;
+    position: absolute;
+    z-index: 0.5;
+    background-color: white;
+    left: 150px;
+    top: 0rem;
+    padding-left: 1px;
+    padding-right: 13px;
+    padding-bottom: 25px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(2, 2, 2, 2.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 3rem;
+    height: 26rem;
+    border: 1px solid black;
+}
+
+.trainer-distribution-whiteimg h2 {
+    padding-top: 18px;
+    padding-bottom: 21px;
+    color: black;
+}
+
+.trainer-distribution-whiteimg p {
+    text-align: left;
+    padding-left: 13px;
+    color: black;
+}
+
+.button2 {
+    width: 26%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 4px;
+    border-color: black;
+    background-color: #e27888;
+    color: whitesmoke;
+    float: initialw;
+    margin-left: 12px;
+    /* margin-bottom: 15px; */
+    margin-top: 10px;
+}
+
+.button2:hover {
+    background-color: pink;
+    border-color: #e27888;
+    color: black;
+}
+
+.about-our-page {
+    text-align: center;
+    padding-bottom: 52px;
+}
+
+.heading-syas-customers {
+    text-align: center;
+    color: white;
+}
+
+.customer_background {
+    background-image: url('https://i.ibb.co/6yhQVhB/test-bg.png');
+    border-radius: 50px 35px;
+    border-color: whitesmoke;
+    background-size: cover;
+    padding-bottom: 52px;
+}
+
+/* .prep-Techniques{
+    border: 1px solid;
+    width: 31%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.prep-Techniques-image img{
+    width: 100%;
+}
+.for-text{
+    padding-left: 7px;
+}
+.prep-heading{
+    font-weight: 700;
+    margin-bottom: 5px;
+    padding-top: 16px;
+}
+.prep-para{
+    font-size: smaller;
+} */
+
+
+.Uliya-den-description {
+    padding-left: 29px;
+    padding-top: 0px;
+}
+
+.Mihacal-description {
+    padding-left: 29px;
+    padding-top: 0px;
+}
+
+.Joy-description {
+    padding-left: 29px;
+    padding-top: 0px;
+}
+
+.navbar-toggler {
+    margin-left: 25rem;
+}
+
+@media only screen and (max-width: 431px) {
+
+    .navbar-toggler {
+        margin-left: 12rem;
+    }
+
+    .heading-syas-customers {
+        text-align: center;
+        padding-top: 9px;
+    }
+
+    .JOY-img img {
+        padding-left: 0px;
+    }
+
+    .MIHACAL-img img {
+        padding-left: 0px;
+    }
+
+    .Uliya-den-img img {
+        padding-left: 0px;
+    }
+}
+
+.JOY-img {
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+
+.customer-description h5 {
+    font-size: 1.25rem;
+    margin-top: -10rem;
+    margin-left: 16rem;
+    color: black;
+}
+
+.customer-description p {
+    margin-left: 16rem;
+}
+
+.MIHACAL-img {
+    margin-top: 5rem;
+    margin-left: 3rem;
+}
+
+.Uliya-den-img img {
+    margin-top: 5rem;
+    margin-left: 3rem;
+}
+
+.touch {
+    text-align: center;
+    padding-bottom: 54px;
+    margin-top: 8rem;
+    color: white;
+}
+
+.your-name {
+    width: 50%;
+    border-radius: 16px;
+    padding-left: 11px;
+    padding-top: 3px;
+    padding-bottom: 4px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: white;
+}
+
+.Your-Email {
+    width: 50%;
+    border-radius: 16px;
+    padding-left: 11px;
+    padding-top: 3px;
+    padding-bottom: 4px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: white;
+}
+
+.your-phone {
+    width: 50%;
+    border-radius: 16px;
+    padding-left: 11px;
+    padding-top: 3px;
+    padding-bottom: 4px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: white;
+}
+
+.Message {
+    width: 50%;
+    border-radius: 16px;
+    padding-left: 11px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: white;
+}
+
+.touch_form {
+    padding-top: 51px;
+}
+
+.touch_send-button button {
+    width: 9%;
+    padding-top: 10px;
+    padding-bottom: 9px;
+    border-radius: 8px;
+    border-color: #e27888;
+    background-color: white;
+    color: #e27888;
+    float: initial;
+    margin-left: 12px;
+    /* margin-bottom: -5px; */
+    margin-top: 10px;
+}
+
+.touch_send-button button:hover {
+    background-color: #e27888;
+    border-color: #e27888;
+    color: white;
+}
+
+.address {
+    text-align: center;
+    color: white;
+    background-position: 100% 25%;
+    background-size: cover;
+    background-image: url(../Images/footer-bg.png);
+    padding-top: 97px;
+    padding-bottom: 0px;
+}
+
+.adress_heading h2 {
+    padding-bottom: 43px;
+    font-weight: 900;
+}
+
+.uper-line-adress {
+    margin-bottom: 0;
+}
+
+.lower-line-address {
+    padding-bottom: 34px;
+}
+
+.phone-number p {
+    margin-bottom: 6px;
+}
+
+.Email {
+    width: 31%;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+}
+
+
+/* footer */
+.footer-section6{
+    height: 650px;
+    display: flex;
+    padding: 50px 24px 0px;
+}
+.footer{
+    background-color: black;
+    width: 100%;
+    padding-right: 150px;
+}
+.footer-fitscape{
+    width: 100%;
+    height:70px;
+    background-color: black;
+    color: orange;
+    display: flex;
+    align-items: center;    
+    font-size: 70px;
+    padding-left: 50px;
+}
+.footer-section2{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    padding-top: 30px;
+    display: flex;
+}
+
+.footer-section2-box1{
+    width: 30%;
+    height: 300px;
+    background-color: black;
+    padding-top: 30px;
+    padding-left: 50px;
+    margin-right: 100px;
+}
+
+#footer-section1{
+    margin: 10px;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.footer-section2-boxes{
+    height: auto;
+    width: 15%;
+    /* background-color: black; */
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section2-boxes-divs{
+    height: 25px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: black;
+    color: whitesmoke;
+}
+.footer-section2-btn{
+    background-color: black;
+    color: grey;
+    /* opacity: 0.5; */
+    border: none;
+}
+.footer-section2-btn:hover{
+    color: whitesmoke;
+    transform: scale(1.01);
+}
+.footer-section2-coach{
+    background-color: black;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-section2-coach h2{
+    background-color: black;
+    color: #ffa500;
+    font-size: 30px;
+    text-align: right;
+}
+.footer-section2-coach h2:hover{
+    transform: scale(1.2);
+    color: #FFB733;
+    transition: 0.5s;
+}
+
+.custom-button{
+    margin-top: 35px ;
+    background-color: black;
+    height: auto;
+    display: flex;
+    justify-content: end;
+}

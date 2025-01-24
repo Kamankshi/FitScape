@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!------ Include the above in your HEAD tag ---------->
+    
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="\FitScape-home\find-coach\find-coach.css">
+    
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <div class="main">
+        <!-- HEADER SECTION -->
+        <div class="header">
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+                    <img src="https://i.ibb.co/ypLx4SD/Screenshot-269.png" alt="Logo-pro" width="5%" height="20%"
+                        style="margin-right: 1rem;">
+                    <a class="navbar-brand text-white" href="#" style="font-size: 36px;"><b><i>FITSCAPE</i></b></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto topnav">
+                            <li class="nav-item active">
+                                <a class="nav-link text-white" href="#" style="margin-left: 2rem;">Home <span
+                                        class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#" style="margin-left: 2rem;">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#" style="margin-left: 2rem;">Personal Coach</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#" style="margin-left: 2rem;">Articles</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link text-white" href="#" style="margin-left: 2rem;">For
+                                    Trainers</a></li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-white" href="#"
+                                    style="margin-right: 3rem; margin-left: 2rem;" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">Group</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item text-white" href="#">Create Group</a></li>
+                                    <li><a class="dropdown-item text-white" href="#">Join a group</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item text-white" href="#">Something else</a></li>
+                                </ul>
+                            </li>
+
+                            <a class="nav-link btn btn-light" type="button" href="#"
+                                style="margin-right: 2rem; width: 90px;" data-toggle="modal" data-target="#myModal">Sign
+                                In</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link btn btn-light" type="button" href="#"
+                                    style="width: 90px; margin-right: 1rem;" data-toggle="modal"
+                                    data-target="#myModal">Register</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- The Modal -->
+                    <div class="modal" id="myModal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                    <h4 class="modal-title">Customer Sign In</h4>
+                                    <button type="button" class="close" data-dismiss="modal">×</button>
+                                </div>
+
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                    <form>
+                                        <label class="sr-only" for="usrname">Username</label>
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text" id="basic-addon1"><i
+                                                        class="fa fa-user"></i></span>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Username"
+                                                aria-label="Username" aria-describedby="basic-addon1">
+                                        </div>
+
+
+                                        <label class="sr-only" for="Password">Name</label>
+                                        <div class="input-group mb-2">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text" id="basic-addon2"><i
+                                                        class="fa fa-key"></i></span>
+                                            </div>
+                                            <input id="Password" type="password" class="form-control"
+                                                placeholder="Password" aria-label="Password"
+                                                aria-describedby="basic-addon2">
+                                        </div>
+                                    </form>
+                                </div>
+
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                    <button type="submit" class="btn btn-primary">Sign In</button>
+                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <!-- OUR TRAINERS -->
+        <div class="our-proj-offer">
+            <h2>OUR TRAINERS</h2>
+            <img src="https://i.ibb.co/VNxYZgD/bulit-icon.png" alt="bulit">
+
+            <div class="crousel-trainer-offer">
+                <div id="carouselExampleCaptions" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+
+                    <div class="carousel-inner">
+                        <div class="container">
+                            <div class="carousel-item active">
+                                <div class="row">
+
+                                    <div class="col-12 col-md-3 types-of-trainers">
+                                        <img src="https://static.vecteezy.com/system/resources/thumbnails/046/836/942/small_2x/young-bangladeshi-male-fitness-trainer-in-modern-gym-environment-suitable-for-health-and-wellness-promotions-exercise-tutorials-and-gym-advertisements-photo.jpg" style="height: 18rem; object-fit: cover;">
+                                        <div class="text-trainer-offer">
+                                            <h5 class="text-trainer-offer-heading">TRAINER 1</h5>
+                                            <p>CITY OF TRAINER</p>
+                                            <button>Read More</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-3 types-of-trainers">
+                                        <img src="https://media.istockphoto.com/id/1324042769/photo/confident-gym-owner.jpg?s=612x612&w=0&k=20&c=2ARveP6nctKY2V1180dCOXS7yJrZjRg-TTIDkazond8=" style="height: 18rem; object-fit: cover;">
+                                        <div class="text-trainer-offer">
+                                            <h5 class="text-trainer-offer-heading">TRAINER 2</h5>
+                                            <p>CITY OF TRAINER</p>
+                                            <button class="button1">Read
+                                                More</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-3 types-of-trainers">
+                                        <img src="https://media.istockphoto.com/id/856797530/photo/portrait-of-a-beautiful-woman-at-the-gym.jpg?s=612x612&w=0&k=20&c=0wMa1MYxt6HHamjd66d5__XGAKbJFDFQyu9LCloRsYU=" style="height: 18rem; object-fit: cover;">
+                                        <div class="text-trainer-offer">
+                                            <h5 class="text-trainer-offer-heading">TRAINER 3</h5>
+                                            <p>CITY OF TRAINER</p>
+                                            <button class="button1">Read
+                                                More</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-3 types-of-trainers">
+                                        <img src="https://media.istockphoto.com/id/675179390/photo/muscular-trainer-writing-on-clipboard.jpg?s=612x612&w=0&k=20&c=9NKx1AwVMpPY0YBlk5H-hxx2vJSCu1Wc78BKRM9wFq0=" style="height: 18rem; object-fit: cover;">
+                                        <div class="text-trainer-offer">
+                                            <h5 class="text-trainer-offer-heading">TRAINER 4</h5>
+                                            <p>CITY OF TRAINER</p>
+                                            <button class="button1">Read
+                                                More</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item active">
+                                <div class="row">
+
+                                    <div class="col-12 col-md-3 types-of-trainers">
+                                        <img src="https://media.istockphoto.com/id/1155234248/photo/fitness-instructor-standing-at-a-fitness-centre-and-smiling-at-the-camera.jpg?s=612x612&w=0&k=20&c=nE6WTfZittd--4njSf3II-m54OhrbXnVIQ1NIjuHInA=" style="height: 18rem; object-fit: cover;">
+                                        <div class="text-trainer-offer">
+                                            <h5 class="text-trainer-offer-heading">TRAINER 5</h5>
+                                            <p>CITY OF TRAINER</p>
+                                            <button>Read More</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-3 types-of-trainers">
+                                        <img src="https://www.inc91.com/uploads/images/202301/image_750x_63bfc216431a6.jpg" style="height: 18rem; object-fit: cover;">
+                                        <div class="text-trainer-offer">
+                                            <h5 class="text-trainer-offer-heading">TRAINER 6</h5>
+                                            <p>CITY OF TRAINER</p>
+                                            <button class="button1">Read
+                                                More</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-3 types-of-trainers">
+                                        <img src="https://media.istockphoto.com/id/852401732/photo/happy-personal-trainer-working-at-the-gym.jpg?s=612x612&w=0&k=20&c=m4Wk3lVvjEFIHbiAfUuFNBwEhvvSgf4Vv5ib9JUsrJk=  " style="height: 18rem; object-fit: cover;">
+                                        <div class="text-trainer-offer">
+                                            <h5 class="text-trainer-offer-heading">TRAINER 7</h5>
+                                            <p>CITY OF TRAINER</p>
+                                            <button class="button1">Read
+                                                More</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-3 types-of-trainers">
+                                        <img src="https://static.vecteezy.com/system/resources/thumbnails/046/837/003/small_2x/smiling-middle-aged-female-fitness-trainer-at-the-gym-wellness-coach-embracing-a-healthy-lifestyle-motivational-workout-session-photo.jpg" style="height: 18rem;object-fit: cover;">
+                                        <div class="text-trainer-offer">
+                                            <h5 class="text-trainer-offer-heading">TRAINER 8</h5>
+                                            <p>CITY OF TRAINER</p>
+                                            <button class="button1">Read
+                                                More</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item active">
+                                <div class="row">
+
+                                    <div class="col-12 col-md-3 types-of-trainers">
+                                        <img src="https://t3.ftcdn.net/jpg/06/35/17/52/360_F_635175286_Ve3RnNYKcHmWsHRNNhoWq4c38pLpZapu.jpg" style="height: 18rem; object-fit: cover;">
+                                        <div class="text-trainer-offer">
+                                            <h5 class="text-trainer-offer-heading">TRAINER 9</h5>
+                                            <p>CITY OF TRAINER</p>
+                                            <button>Read More</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-3 types-of-trainers">
+                                        <img src="https://static.vecteezy.com/system/resources/thumbnails/046/837/294/small_2x/smiling-fitness-trainer-in-gym-strength-training-personal-coaching-health-and-wellness-concept-for-social-media-advertising-design-photo.jpg" style="height: 18rem; object-fit: cover;">
+                                        <div class="text-trainer-offer">
+                                            <h5 class="text-trainer-offer-heading">TRAINER 10</h5>
+                                            <p>CITY OF TRAINER</p>
+                                            <button class="button1">Read
+                                                More</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-3 types-of-trainers">
+                                        <img src="https://static.vecteezy.com/system/resources/previews/046/837/002/large_2x/confident-senior-indian-female-fitness-trainer-in-gym-environment-promoting-wellness-and-active-lifestyle-photo.jpg" style="height: 18rem;object-fit: cover;">
+                                        <div class="text-trainer-offer">
+                                            <h5 class="text-trainer-offer-heading">TRAINER 11</h5>
+                                            <p>CITY OF TRAINER</p>
+                                            <button class="button1">Read
+                                                More</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-3 types-of-trainers">
+                                        <img src="https://static.vecteezy.com/system/resources/previews/046/836/977/non_2x/african-male-fitness-trainer-in-gym-fitness-and-wellness-african-american-coach-healthy-lifestyle-photo.jpg" style="height: 18rem; object-fit: cover;">
+                                        <div class="text-trainer-offer">
+                                            <h5 class="text-trainer-offer-heading">TRAINER 12</h5>
+                                            <p>CITY OF TRAINER</p>
+                                            <button class="button1">Read
+                                                More</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item active">
+                                <div class="row">
+
+                                    <div class="col-12 col-md-3 types-of-trainers">
+                                        <img src="https://static.vecteezy.com/system/resources/thumbnails/046/836/968/small_2x/confident-polish-fitness-trainer-smiling-in-modern-gym-environment-photo.jpg" style="height: 18rem;object-fit: cover;">
+                                        <div class="text-trainer-offer">
+                                            <h5 class="text-trainer-offer-heading">TRAINER 13</h5>
+                                            <p>CITY OF TRAINER</p>
+                                            <button>Read More</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-3 types-of-trainers">
+                                        <img src="https://static.vecteezy.com/system/resources/thumbnails/046/837/244/small_2x/smiling-fitness-trainer-in-modern-gym-cross-training-equipment-background-ideal-for-motivational-posters-and-health-articles-photo.jpg" style="height: 18rem;object-fit: cover;">
+                                        <div class="text-trainer-offer">
+                                            <h5 class="text-trainer-offer-heading">TRAINER 14</h5>
+                                            <p>CITY OF TRAINER</p>
+                                            <button class="button1">Read
+                                                More</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-3 types-of-trainers">
+                                        <img src="https://img.freepik.com/premium-photo/man-gym-gym-trainer-fitness-gym-man-hd-image_594776-2510.jpg" style="height: 18rem;object-fit: cover;">
+                                        <div class="text-trainer-offer">
+                                            <h5 class="text-trainer-offer-heading">TRAINER 15</h5>
+                                            <p>CITY OF TRAINER</p>
+                                            <button class="button1">Read
+                                                More</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-3 types-of-trainers">
+                                        <img src="https://img.freepik.com/premium-photo/young-latino-features-young-man-personal-trainer-with-arms-crossed-smiling-gym_641878-384.jpg" style="height: 18rem;object-fit: cover;">
+                                        <div class="text-trainer-offer">
+                                            <h5 class="text-trainer-offer-heading">TRAINER 16</h5>
+                                            <p>CITY OF TRAINER</p>
+                                            <button class="button1">Read
+                                                More</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item active">
+                                <div class="row">
+
+                                    <div class="col-12 col-md-3 types-of-trainers">
+                                        <img src="https://img.freepik.com/premium-photo/handsome-athletic-man-smiling-looking-camera-fitness-trainer-gym-jock_826801-5740.jpg" style="height: 18rem;object-fit: cover;">
+                                        <div class="text-trainer-offer">
+                                            <h5 class="text-trainer-offer-heading">TRAINER 17</h5>
+                                            <p>CITY OF TRAINER</p>
+                                            <button>Read More</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-3 types-of-trainers">
+                                        <img src="https://img.freepik.com/premium-photo/young-mexican-features-man-personal-trainer-with-arms-crossed-smiling-gym_641878-382.jpg" style="height: 18rem;object-fit: cover;">
+                                        <div class="text-trainer-offer">
+                                            <h5 class="text-trainer-offer-heading">TRAINER 18</h5>
+                                            <p>CITY OF TRAINER</p>
+                                            <button class="button1">Read
+                                                More</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-3 types-of-trainers">
+                                        <img src="https://img.freepik.com/premium-photo/young-mexican-features-young-man-personal-trainer-with-arms-crossed-smiling-gym_641878-385.jpg" style="height: 18rem;object-fit: cover;">
+                                        <div class="text-trainer-offer">
+                                            <h5 class="text-trainer-offer-heading">TRAINER 19</h5>
+                                            <p>CITY OF TRAINER</p>
+                                            <button class="button1">Read
+                                                More</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-3 types-of-trainers">
+                                        <img src="https://img.freepik.com/premium-photo/journey-personal-trainer-towards-empowering-fitness-generative-ai_94628-7803.jpg?w=360" style="height: 18rem;object-fit: cover;">
+                                        <div class="text-trainer-offer">
+                                            <h5 class="text-trainer-offer-heading">TRAINER 20</h5>
+                                            <p>CITY OF TRAINER</p>
+                                            <button class="button1">Read
+                                                More</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- About our page -->
+        <div class="about-our-page">
+            <h2>ABOUT OUR PAGE</h2>
+            <img src="https://i.ibb.co/VNxYZgD/bulit-icon.png" alt>
+            <div class="col-12 pt-4 trainer-distribution">
+
+                <img src="https://i.ibb.co/4gXWcJ8/banner.webp" alt>
+                <div class="trainer-distribution-whiteimg">
+                    <h2>Why Personal Coaching ?</h2>
+                    <p class="para-trainer-distribution">
+                        <b>Tailored Programs:</b> <br>Coaches create personalized workout and diet plans based on individual goals, fitness levels, and health conditions.
+                    </p>
+                    <p class="para-trainer-distribution">
+                        <b>Expert Advice:</b> <br>Guidance from certified trainers or dietitians ensures scientifically sound advice for better health outcomes.
+                    </p>
+                    <p class="para-trainer-distribution">
+                        <b>Correct Technique:</b> <br>Professionals ensure proper exercise form, minimizing injury risks and maximizing results.
+                    </p>
+                    <!-- <p class="para-trainer-distribution">
+                        <b>Goal Tracking:</b> <br>Coaches help set realistic goals and track progress effectively. -->
+                    </p>
+                    <button class="button2">READ MORE</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- WHAT SYAS CUSTOMERS -->
+        <div class="what-syas-customers">
+            <div class="container">
+                <div class="heading-syas-customers">
+                    <h2>WHAT CUSTOMERS SAY</h2>
+                    <img src="https://i.ibb.co/VNxYZgD/bulit-icon.png" style="margin-bottom: 1rem;">
+                </div>
+                <div class="customer_background">
+                <div class="row">
+                    <div class="col-12 col-md-10 JOY-MOARK">
+                        <div class="JOY-img">
+                            <img src="https://i.ibb.co/9WC9pBT/client-img1.png" alt>
+                        </div>
+                        <div class="customer-description">
+                            <h5>Joy Moark</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Adipisci eveniet veniam
+                                laborum, eum et, asperiores repellendus illo
+                                velit eius id necessitatibus amet unde,
+                                similique eaque vel. Provident quisquam
+                                fugiat repellat? defaut model text</p>
+                        </div>
+                    </div>
+                    <div class="col12 col-md-10 Mihacal">
+                        <div class="MIHACAL-img">
+                            <img src="https://i.ibb.co/6JDV1WP/client-img3.png" alt>
+                        </div>
+                        <div class="customer-description">
+                            <h5>Mihacal</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Adipisci eveniet veniam
+                                laborum, eum et, asperiores repellendus illo
+                                velit eius id necessitatibus amet unde,
+                                similique eaque vel. Provident quisquam
+                                fugiat repellat? defaut model text</p>
+                        </div>
+                    </div>
+                    <div class="col12 col-md-10 Uliya-den">
+                        <div class="Uliya-den-img">
+                            <img src="https://i.ibb.co/1sctQ4Y/client-img2.png" alt>
+                        </div>
+                        <div class="customer-description">
+                            <h5>Uliya den</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Adipisci eveniet veniam
+                                laborum, eum et, asperiores repellendus illo
+                                velit eius id necessitatibus amet unde,
+                                similique eaque vel. Provident quisquam
+                                fugiat repellat? defaut model text</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        
+         <!-- GET IN TOUCH -->
+         <div class="touch">
+            <div class="touch_head">
+                <h2>GET IN TOUCH</h2>
+                <img src="https://i.ibb.co/VNxYZgD/bulit-icon.png" alt="" pt-4>
+            </div>
+
+            <div class="touch_form">
+                <div>
+                <input type="text" placeholder="Your Name" class="your-name">
+            </div>
+            <div>
+                <input type="email" id="email" name="email" placeholder="Your Email" class="Your-Email">
+            </div>
+            <div>
+                <input type="number" id="quantity" name="quantity" min="1" max="10" placeholder="Your Phone" class="your-phone">
+            </div>
+            <div>
+                <input type="text" placeholder="Message" class="Message">
+            </div>
+            </div>
+            
+            <div class="touch_send-button">
+            <button>SEND</button>
+            </div>
+        </div>
+         
+        <!-- FOOTER SECTION -->
+          <!-- Section 6 -->
+      <hr>
+      <div class="footer-section6">
+        <div class="footer">
+            <div class="footer-fitscape">
+                Fitscape
+            </div>
+            <div class="footer-section2">
+                <div class="footer-section2-box1">
+                    <div id="footer-section1">
+                        Join us on our mission to make everyone Healthier
+                    </div>
+                    <div id="footer-section1">
+                        supportemail@gmail.com
+                    </div>
+                    <div id="footer-section1">
+                        +91 987654321
+                    </div>
+                    <!-- <div id="div4">
+                        <p>Join us on our mission to make everyone Healthier</p>
+                    </div> -->
+                </div>
+    
+                <div class="footer-section2-boxes">
+                    <div class="section2-boxes-divs"><button class="footer-section2-btn">About us</button></div>
+                    <div class="section2-boxes-divs"><button class="footer-section2-btn">Become a Coach</button></div>
+                    <div class="section2-boxes-divs"><button class="footer-section2-btn">Help</button></div>
+                    <div class="section2-boxes-divs"><button class="footer-section2-btn">Support</button></div>
+                    <div class="section2-boxes-divs"><button class="footer-section2-btn">Contact us</button></div>
+                    <div class="section2-boxes-divs"><button class="footer-section2-btn">Policy</button></div>
+                    <div class="section2-boxes-divs"><button class="footer-section2-btn">Legalities</button></div>
+                    <div class="section2-boxes-divs"><button class="footer-section2-btn">Legalities</button></div>
+                </div>
+    
+                <div class="footer-section2-boxes">
+                    <div class="section2-boxes-divs"><button class="footer-section2-btn">About us</button></div>
+                    <div class="section2-boxes-divs"><button class="footer-section2-btn">Become a Coach</button></div>
+                    <div class="section2-boxes-divs"><button class="footer-section2-btn">Help</button></div>
+                    <div class="section2-boxes-divs"><button class="footer-section2-btn">Support</button></div>
+                    <div class="section2-boxes-divs"><button class="footer-section2-btn">Contact us</button></div>
+                    <div class="section2-boxes-divs"><button class="footer-section2-btn">Policy</button></div>
+                    <div class="section2-boxes-divs"><button class="footer-section2-btn">Legalities</button></div>
+                    <div class="section2-boxes-divs"><button class="footer-section2-btn">Legalities</button></div>
+                    <div class="section2-boxes-divs"><button class="footer-section2-btn">Legalities</button></div>
+                </div>
+    
+                <div class="footer-section2-boxes">
+                    <div class="section2-boxes-divs"><button class="footer-section2-btn">About us</button></div>
+                    <div class="section2-boxes-divs"><button class="footer-section2-btn">Become a Coach</button></div>
+                    <div class="section2-boxes-divs"><button class="footer-section2-btn">Help</button></div>
+                    <div class="section2-boxes-divs"><button class="footer-section2-btn">Support</button></div>
+                    <div class="section2-boxes-divs"><button class="footer-section2-btn">Contact us</button></div>
+                    <div class="section2-boxes-divs"><button class="footer-section2-btn">Policy</button></div>
+                    <div class="section2-boxes-divs"><button class="footer-section2-btn">Legalities</button></div>
+                    <div class="section2-boxes-divs"><button class="footer-section2-btn">Legalities</button></div>
+                    <div class="section2-boxes-divs"><button class="footer-section2-btn">Legalities</button></div>
+                    <div class="section2-boxes-divs"><button class="footer-section2-btn">Legalities</button></div>
+                </div>
+    
+                <div class="footer-section2-coach ">
+                    <h2>Become <br>FitScape Coach <br>Today</h2>
+                    <div class="custom-button">
+                        <button class="btn btn-outline-light btn-lg">Join us</button>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+     </div>
+    </div>
+
+    </div>
+</body>
+</html>
