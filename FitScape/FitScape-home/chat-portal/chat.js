@@ -3,12 +3,12 @@
 window.onload = function() {
     // Your web app's Firebase configuration
     const firebaseConfig = {
-      apiKey: "AIzaSyAG9TO8WML8vr_NFBidgbd2x_jG9faCRjc",
+      apiKey: "AIzaSyAG9TO8WML********8aCRjc",
       authDomain: "fitforge-ed3de.firebaseapp.com",
       projectId: "fitforge-ed3de",
       storageBucket: "fitforge-ed3de.appspot.com",
       messagingSenderId: "489939168231",
-      appId: "1:489939168231:web:0ce558e51d5f3731186b42",
+      appId: "1:489939168231:web:0ce**8*****8*8*8b42",
       measurementId: "G-C414L58VFJ"
     };
     // Initialize Firebase
