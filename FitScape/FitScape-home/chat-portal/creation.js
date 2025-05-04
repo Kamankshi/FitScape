@@ -4,13 +4,13 @@ import { getDatabase, ref, set } from "https://www.gstatic.com/firebasejs/10.13.
 
 // Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBKHchgZEmwnyhHiuRznTGu4LV6kMk1f0Q",
+  apiKey: "AIzaSyBKHchgZEmwnyhHiuRzn*********88",
   authDomain: "groupchat-b228d.firebaseapp.com",
   projectId: "groupchat-b228d",
   storageBucket: "groupchat-b228d.appspot.com",
   messagingSenderId: "329230089438",
-  appId: "1:329230089438:web:9954d0746586b3c0b9564f",
-  measurementId: "G-21YS77WNXG"
+  appId: "1:3292mu6u7m7kl7b3c0b9564f",
+  measurementId: "7j7kikNXG"
 };
 
 // Initialize Firebase
